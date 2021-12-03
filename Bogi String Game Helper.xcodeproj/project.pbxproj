@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105D015B2759A5A2003E5AD9 /* Bogi_String_Game_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D015A2759A5A2003E5AD9 /* Bogi_String_Game_HelperApp.swift */; };
+		105D015D2759A5A2003E5AD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D015C2759A5A2003E5AD9 /* ContentView.swift */; };
+		105D015F2759A5A3003E5AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105D015E2759A5A3003E5AD9 /* Assets.xcassets */; };
+		105D01622759A5A3003E5AD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105D01612759A5A3003E5AD9 /* Preview Assets.xcassets */; };
+		105D016C2759A5A3003E5AD9 /* Bogi_String_Game_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D016B2759A5A3003E5AD9 /* Bogi_String_Game_HelperTests.swift */; };
+		105D01762759A5A3003E5AD9 /* Bogi_String_Game_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D01752759A5A3003E5AD9 /* Bogi_String_Game_HelperUITests.swift */; };
+		105D01782759A5A3003E5AD9 /* Bogi_String_Game_HelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D01772759A5A3003E5AD9 /* Bogi_String_Game_HelperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105D01682759A5A3003E5AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105D014F2759A5A1003E5AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105D01562759A5A2003E5AD9;
+			remoteInfo = "Bogi String Game Helper";
+		};
+		105D01722759A5A3003E5AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105D014F2759A5A1003E5AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105D01562759A5A2003E5AD9;
+			remoteInfo = "Bogi String Game Helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105D01572759A5A2003E5AD9 /* Bogi String Game Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bogi String Game Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105D015A2759A5A2003E5AD9 /* Bogi_String_Game_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_String_Game_HelperApp.swift; sourceTree = "<group>"; };
+		105D015C2759A5A2003E5AD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		105D015E2759A5A3003E5AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105D01612759A5A3003E5AD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		105D01672759A5A3003E5AD9 /* Bogi String Game HelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bogi String Game HelperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105D016B2759A5A3003E5AD9 /* Bogi_String_Game_HelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_String_Game_HelperTests.swift; sourceTree = "<group>"; };
+		105D01712759A5A3003E5AD9 /* Bogi String Game HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bogi String Game HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105D01752759A5A3003E5AD9 /* Bogi_String_Game_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_String_Game_HelperUITests.swift; sourceTree = "<group>"; };
+		105D01772759A5A3003E5AD9 /* Bogi_String_Game_HelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_String_Game_HelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105D01542759A5A2003E5AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D01642759A5A3003E5AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D016E2759A5A3003E5AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105D014E2759A5A1003E5AD9 = {
+			isa = PBXGroup;
+			children = (
+				105D01592759A5A2003E5AD9 /* Bogi String Game Helper */,
+				105D016A2759A5A3003E5AD9 /* Bogi String Game HelperTests */,
+				105D01742759A5A3003E5AD9 /* Bogi String Game HelperUITests */,
+				105D01582759A5A2003E5AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105D01582759A5A2003E5AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105D01572759A5A2003E5AD9 /* Bogi String Game Helper.app */,
+				105D01672759A5A3003E5AD9 /* Bogi String Game HelperTests.xctest */,
+				105D01712759A5A3003E5AD9 /* Bogi String Game HelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105D01592759A5A2003E5AD9 /* Bogi String Game Helper */ = {
+			isa = PBXGroup;
+			children = (
+				105D015A2759A5A2003E5AD9 /* Bogi_String_Game_HelperApp.swift */,
+				105D015C2759A5A2003E5AD9 /* ContentView.swift */,
+				105D015E2759A5A3003E5AD9 /* Assets.xcassets */,
+				105D01602759A5A3003E5AD9 /* Preview Content */,
+			);
+			path = "Bogi String Game Helper";
+			sourceTree = "<group>";
+		};
+		105D01602759A5A3003E5AD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				105D01612759A5A3003E5AD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		105D016A2759A5A3003E5AD9 /* Bogi String Game HelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				105D016B2759A5A3003E5AD9 /* Bogi_String_Game_HelperTests.swift */,
+			);
+			path = "Bogi String Game HelperTests";
+			sourceTree = "<group>";
+		};
+		105D01742759A5A3003E5AD9 /* Bogi String Game HelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				105D01752759A5A3003E5AD9 /* Bogi_String_Game_HelperUITests.swift */,
+				105D01772759A5A3003E5AD9 /* Bogi_String_Game_HelperUITestsLaunchTests.swift */,
+			);
+			path = "Bogi String Game HelperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105D01562759A5A2003E5AD9 /* Bogi String Game Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105D017B2759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game Helper" */;
+			buildPhases = (
+				105D01532759A5A2003E5AD9 /* Sources */,
+				105D01542759A5A2003E5AD9 /* Frameworks */,
+				105D01552759A5A2003E5AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bogi String Game Helper";
+			productName = "Bogi String Game Helper";
+			productReference = 105D01572759A5A2003E5AD9 /* Bogi String Game Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		105D01662759A5A3003E5AD9 /* Bogi String Game HelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105D017E2759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game HelperTests" */;
+			buildPhases = (
+				105D01632759A5A3003E5AD9 /* Sources */,
+				105D01642759A5A3003E5AD9 /* Frameworks */,
+				105D01652759A5A3003E5AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105D01692759A5A3003E5AD9 /* PBXTargetDependency */,
+			);
+			name = "Bogi String Game HelperTests";
+			productName = "Bogi String Game HelperTests";
+			productReference = 105D01672759A5A3003E5AD9 /* Bogi String Game HelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		105D01702759A5A3003E5AD9 /* Bogi String Game HelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105D01812759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game HelperUITests" */;
+			buildPhases = (
+				105D016D2759A5A3003E5AD9 /* Sources */,
+				105D016E2759A5A3003E5AD9 /* Frameworks */,
+				105D016F2759A5A3003E5AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105D01732759A5A3003E5AD9 /* PBXTargetDependency */,
+			);
+			name = "Bogi String Game HelperUITests";
+			productName = "Bogi String Game HelperUITests";
+			productReference = 105D01712759A5A3003E5AD9 /* Bogi String Game HelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105D014F2759A5A1003E5AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					105D01562759A5A2003E5AD9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					105D01662759A5A3003E5AD9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 105D01562759A5A2003E5AD9;
+					};
+					105D01702759A5A3003E5AD9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 105D01562759A5A2003E5AD9;
+					};
+				};
+			};
+			buildConfigurationList = 105D01522759A5A1003E5AD9 /* Build configuration list for PBXProject "Bogi String Game Helper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105D014E2759A5A1003E5AD9;
+			productRefGroup = 105D01582759A5A2003E5AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105D01562759A5A2003E5AD9 /* Bogi String Game Helper */,
+				105D01662759A5A3003E5AD9 /* Bogi String Game HelperTests */,
+				105D01702759A5A3003E5AD9 /* Bogi String Game HelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105D01552759A5A2003E5AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105D01622759A5A3003E5AD9 /* Preview Assets.xcassets in Resources */,
+				105D015F2759A5A3003E5AD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D01652759A5A3003E5AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D016F2759A5A3003E5AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105D01532759A5A2003E5AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105D015D2759A5A2003E5AD9 /* ContentView.swift in Sources */,
+				105D015B2759A5A2003E5AD9 /* Bogi_String_Game_HelperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D01632759A5A3003E5AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105D016C2759A5A3003E5AD9 /* Bogi_String_Game_HelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105D016D2759A5A3003E5AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105D01782759A5A3003E5AD9 /* Bogi_String_Game_HelperUITestsLaunchTests.swift in Sources */,
+				105D01762759A5A3003E5AD9 /* Bogi_String_Game_HelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		105D01692759A5A3003E5AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105D01562759A5A2003E5AD9 /* Bogi String Game Helper */;
+			targetProxy = 105D01682759A5A3003E5AD9 /* PBXContainerItemProxy */;
+		};
+		105D01732759A5A3003E5AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105D01562759A5A2003E5AD9 /* Bogi String Game Helper */;
+			targetProxy = 105D01722759A5A3003E5AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		105D01792759A5A3003E5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		105D017A2759A5A3003E5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105D017C2759A5A3003E5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bogi String Game Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105D017D2759A5A3003E5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bogi String Game Helper/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		105D017F2759A5A3003E5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bogi String Game Helper.app/Bogi String Game Helper";
+			};
+			name = Debug;
+		};
+		105D01802759A5A3003E5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-HelperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bogi String Game Helper.app/Bogi String Game Helper";
+			};
+			name = Release;
+		};
+		105D01822759A5A3003E5AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bogi String Game Helper";
+			};
+			name = Debug;
+		};
+		105D01832759A5A3003E5AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Bogi-String-Game-HelperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bogi String Game Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105D01522759A5A1003E5AD9 /* Build configuration list for PBXProject "Bogi String Game Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105D01792759A5A3003E5AD9 /* Debug */,
+				105D017A2759A5A3003E5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105D017B2759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105D017C2759A5A3003E5AD9 /* Debug */,
+				105D017D2759A5A3003E5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105D017E2759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game HelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105D017F2759A5A3003E5AD9 /* Debug */,
+				105D01802759A5A3003E5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105D01812759A5A3003E5AD9 /* Build configuration list for PBXNativeTarget "Bogi String Game HelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105D01822759A5A3003E5AD9 /* Debug */,
+				105D01832759A5A3003E5AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 105D014F2759A5A1003E5AD9 /* Project object */;
+}
